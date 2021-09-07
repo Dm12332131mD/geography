@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@dmmdjs/dmmd.js": "^1.3.2"
+  }
+}

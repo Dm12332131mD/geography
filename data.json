@@ -1,0 +1,100 @@
+[
+    {
+        "category": "water",
+        "location": [
+            {
+                "category": "land",
+                "name": "Europe",
+                "type": "continent"
+            }
+        ],
+        "name": "Black Sea",
+        "owners": [],
+        "type": "sea"
+    },
+    {
+        "category": "water",
+        "location": [
+            {
+                "category": "land",
+                "name": "Europe",
+                "type": "continent"
+
+            },
+            {
+                "category": "land",
+                "name": "Africa",
+                "type": "continent"
+            }
+        ],
+        "name": "Mediterranean Sea",
+        "owners": [],
+        "type": "sea"
+    },
+    {
+        "category": "land",
+        "location": [
+            {
+                "category": "land",
+                "name": "Spain",
+                "type": "country"
+            }
+        ],
+        "name": "Gibraltar",
+        "owners": [
+            {
+                "category": "land",
+                "name": "United Kingdom",
+                "type": "country"
+            }
+        ],
+        "type": "peninsula"
+    },
+    {
+        "category": "water",
+        "location": [
+            {
+                "category": "land",
+                "name": "Egypt",
+                "type": "country"
+            },
+            {
+                "category": "water",
+                "name": "Mediterranean Sea",
+                "type": "sea"
+            },
+            {
+                "category": "water",
+                "name": "Red Sea",
+                "type": "sea"
+            }
+        ],
+        "name": "Suez Canal",
+        "owners": [
+            {
+                "category": "land",
+                "name": "Egypt",
+                "type": "country"
+            }
+        ],
+        "type": "canel"
+    },
+    {
+        "category": "water",
+        "location": [
+            {
+                "category": "land",
+                "name": "Africa",
+                "type": "continent"
+            },
+            {
+                "category": "land",
+                "name": "Arabian Peninsula",
+                "type": "peninsula"
+            }
+        ],
+        "name": "Red Sea",
+        "owners": [],
+        "type": "sea"
+    }
+]
