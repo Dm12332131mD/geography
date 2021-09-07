@@ -1,5 +1,31 @@
 [
     {
+        "category": "land",
+        "location": [
+            {
+                "category": "land",
+                "name": "Turkey",
+                "type": "country"
+            }
+        ],
+        "name": "Istanbul",
+        "owners": [],
+        "type": null
+    },
+    {
+        "category": "land",
+        "location": [
+            {
+                "category": "land",
+                "name": "Ukraine",
+                "type": "country"
+            }
+        ],
+        "name": "Crimean Peninsula",
+        "owners": [],
+        "type": "peninsula"
+    },
+    {
         "category": "water",
         "location": [
             {

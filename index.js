@@ -68,6 +68,7 @@ function fetch(set) {
             };
         };
         case 1: {
+            if(set.type === null) return fetch(set);
             return {
                 question: `What type of ${set.category} is ${set.name}?`,
                 answer: set.type
