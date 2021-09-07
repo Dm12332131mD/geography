@@ -61,12 +61,12 @@ function color(string, status) {
 };
 
 function fetch(set) {
-    switch(Math.floor(Math.random() * 3)) {
+    switch(Math.floor(Math.random() * 4)) {
         case 0: {
-            if(set.location.length === 0) return fetch(set);
+            if(set.locations.length === 0) return fetch(set);
             if(set.type === null) return fetch(set);
             return {
-                question: `What is the name of ${set.type} between ${set.location.map(l => l.name).join(" & ")}?`,
+                question: `What is the name of ${set.type} in/between/near ${set.locations.map(l => l.name).join(" & ")}?`,
                 answer: set.name
             };
         };
@@ -82,6 +82,13 @@ function fetch(set) {
             return {
                 question: `Who or what owns ${set.name}? (Seperated by comma)`,
                 answer: set.owners.map(l => l.name).join(", ")
+            };
+        };
+        case 3: {
+            if(set.locations.length === 0) return fetch(set);
+            return {
+                question: `Where is ${set.name} located? (Seperated by comma)`,
+                answer: set.locations.map(l => l.name).join(", ")
             };
         };
     };

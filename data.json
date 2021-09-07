@@ -1,7 +1,7 @@
 [
     {
         "category": "land",
-        "location": [
+        "locations": [
             {
                 "category": "land",
                 "name": "Turkey",
@@ -14,7 +14,7 @@
     },
     {
         "category": "land",
-        "location": [
+        "locations": [
             {
                 "category": "land",
                 "name": "Ukraine",
@@ -27,7 +27,7 @@
     },
     {
         "category": "water",
-        "location": [
+        "locations": [
             {
                 "category": "land",
                 "name": "Europe",
@@ -40,7 +40,7 @@
     },
     {
         "category": "water",
-        "location": [
+        "locations": [
             {
                 "category": "land",
                 "name": "Europe",
@@ -59,7 +59,7 @@
     },
     {
         "category": "land",
-        "location": [
+        "locations": [
             {
                 "category": "land",
                 "name": "Spain",
@@ -78,7 +78,7 @@
     },
     {
         "category": "water",
-        "location": [
+        "locations": [
             {
                 "category": "land",
                 "name": "Egypt",
@@ -107,7 +107,7 @@
     },
     {
         "category": "water",
-        "location": [
+        "locations": [
             {
                 "category": "land",
                 "name": "Africa",
